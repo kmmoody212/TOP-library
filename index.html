@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/93bf94a79e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <navbar>
+      <div class="logo">
+        <span style="font-weight: 600; margin: 0; padding: 0">laudible</span
+        ><img
+          src="pngtree-realistic-sun-icon-for-weather-design-on-white-background-png-image_4738151.png"
+          style="width: 60px; height: auto; top: 0px; left: 33%"
+        />
+        <p>
+          an
+          <span
+            style="
+              font-weight: bold;
+              letter-spacing: -0.01rem;
+              text-decoration: underline;
+            "
+            >amazing</span
+          >
+          catalog
+        </p>
+      </div>
+      <button>
+        <p>+ Add your next great read</p>
+      </button>
+    </navbar>
+
+    <h1>Library</h1>
+    <!-- CONTAINER HOLDING THE CATALOG CARDS !!!!!!!!!!!!!!!!!!! -->
+    <section class="library">
+      <div class="card">
+        <div class="book-title">State of Fear</div>
+        <div class="author">By: Michael Crichton</div>
+        <div class="num-pages">Pages: 603</div>
+        <div class="btns">
+          <button class="remove">Remove from Library</button>
+          <button class="toggle">
+            <i class="fa-solid fa-circle-check" style="color: green"></i>
+            Finished
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="book-title">Wool</div>
+        <div class="author">By: Hugh Howey</div>
+        <div class="num-pages">Pages: 592</div>
+        <div class="btns">
+          <button class="remove">Remove from Library</button>
+          <button class="toggle">
+            <i class="fa-solid fa-circle-check" style="color: green"></i>
+            Finished
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="book-title">None of This is True</div>
+        <div class="author">By: Lisa Jewell</div>
+        <div class="num-pages">Pages: 384</div>
+        <div class="btns">
+          <button class="remove">Remove from Library</button>
+          <button class="toggle">
+            <i class="fa-regular fa-circle-check"></i> Unfinished
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
