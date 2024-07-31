@@ -1,0 +1,130 @@
+body {
+  color: #010e19;
+  font-family: "Audible Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  margin: 8px;
+}
+
+/* NAVBAR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 20px;
+  align-items: center;
+  border-bottom: 1px solid rgb(191, 191, 191);
+}
+
+.logo {
+  font-size: 2.25rem;
+  letter-spacing: -0.07rem;
+}
+
+.logo p {
+  font-size: 0.75rem;
+  margin: 0;
+  padding-left: 5px;
+  letter-spacing: 0.01rem;
+}
+
+navbar button {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  padding: 12px 32px;
+  align-items: center;
+  border-radius: 25px;
+  border: none;
+  background-color: orange;
+  font-weight: 600;
+}
+
+navbar button:hover {
+  background-color: rgb(255, 196, 86);
+  cursor: pointer;
+}
+
+navbar button p {
+  margin: 0;
+  padding: 0;
+}
+
+/* LIBRARY HEADING !!!!!!!!!!!!!!!!!!!! */
+h1 {
+  font-size: 2.75rem;
+  font-stretch: condensed;
+  font-weight: 400;
+  letter-spacing: 0.09rem;
+  width: max-content;
+  margin: 2.25rem 0rem 2.5rem 10vw;
+}
+
+/* CARDS !!!!!!!!!!!!!!!!! */
+
+section {
+  margin: auto;
+  padding: 3rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(52, 73, 106),
+    rgb(17, 19, 24)
+  );
+}
+
+section .card {
+  border-radius: 25px;
+  width: 20%;
+  background-color: white;
+  margin: 2rem;
+}
+
+section .card .book-title {
+  text-wrap: wrap;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+section .card .author {
+  text-align: center;
+  padding: 12px;
+}
+
+section .card .num-pages {
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+/* BUTTONS ON THE CARDS !!!!!!!!!!!!! */
+
+section .card .btns {
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+section .card .btns .toggle {
+  background: none;
+  border: none;
+  font-weight: 600;
+}
+
+section .card .btns .remove {
+  background: none;
+  border: none;
+  font-weight: 600;
+}
+
+section .card .btns :hover {
+  background: rgb(225, 225, 225);
+  border-radius: 25px;
+  cursor: pointer;
+}
