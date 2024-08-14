@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/93bf94a79e.js"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -34,25 +34,20 @@
           catalog
         </p>
       </div>
-      <button id="addBook">
-        <p>+ Add your next great read</p>
-      </button>
+      <button id="addBook">+ Add your next great read</button>
     </navbar>
     <!-- -------------------- MODAL ----------------------- -->
-    <dialog open class="modal" id="modal">
+    <dialog class="modal" id="modal">
       <form class="form" method="dialog">
         <label for="book_title">Book Title:</label>
-        <input type="text" id="book_title" name="book_title" /><br />
+        <input type="text" id="book_title" name="book_title" required /><br />
         <label for="author_name">Author:</label>
-        <input type="text" id="author_name" name="author_name" /><br />
+        <input type="text" id="author_name" name="author_name" required /><br />
         <label for="num_pages">Number of Pages:</label>
-        <input type="number" id="num_pages" name="num_pages" /><br />
-        <p>Have you finished reading this book?</p>
-        <label for="finished">Yes</label>
-        <input type="checkbox" id="finished" name="finished" />
-        <label for="unfinished">No</label>
-        <input type="checkbox" id="unfinished" name="unfinished" /><br />
-        <button class="button close-button">Cancel</button>
+        <input type="number" id="num_pages" name="num_pages" required /><br />
+        <label for="finished">Mark as finished?</label>
+        <input type="checkbox" id="finished" name="finished" /><br />
+        <button class="cancel">Cancel</button>
         <button class="submit" type="submit">Add Book</button>
       </form>
     </dialog>
