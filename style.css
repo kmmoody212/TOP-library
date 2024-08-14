@@ -68,11 +68,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(52, 73, 106),
-    rgb(17, 19, 24)
-  );
 }
 
 section .card {
@@ -80,11 +75,16 @@ section .card {
   width: 20%;
   background-color: white;
   margin: 2rem;
+  border: 01px solid gray;
 }
 
 section .card .book-title {
   text-wrap: wrap;
-  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(52, 73, 106),
+    rgb(17, 19, 24)
+  );
   color: white;
   text-align: center;
   padding: 20px;
@@ -128,3 +128,5 @@ section .card .btns :hover {
   border-radius: 25px;
   cursor: pointer;
 }
+
+/* /////////////////////// DIALOG ///////////////////////// */
