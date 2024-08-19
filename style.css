@@ -106,7 +106,7 @@ section .card .btns {
   padding-bottom: 18px;
 }
 
-section .card .btns .toggle {
+section .card .btns .read {
   background: none;
   border: none;
   font-weight: 600;
