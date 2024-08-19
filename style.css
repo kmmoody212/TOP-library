@@ -125,3 +125,52 @@ section .card .btns :hover {
 }
 
 /* /////////////////////// DIALOG ///////////////////////// */
+dialog {
+  margin: auto;
+  min-width: 20vw;
+  min-height: 30vh;
+  border: 1px solid gray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px 26px;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+form input {
+  padding: 4px;
+}
+
+form input:focus {
+  outline: none;
+  padding: 5px;
+  border: 1px solid gray;
+  background-color: rgba(184, 255, 255, 0.089);
+  box-shadow: 0 0 4px aqua;
+}
+
+dialog .form .submit {
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  height: 1.75rem;
+}
+
+dialog .form .submit:hover {
+  background-color: rgb(255, 196, 86);
+  cursor: pointer;
+}
+
+dialog .form .cancel {
+  background: none;
+  border: none;
+}
+
+dialog .form .cancel:hover {
+  color: rgba(151, 65, 0, 0.874);
+  cursor: pointer;
+}
