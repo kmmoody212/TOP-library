@@ -1,5 +1,5 @@
 # TOP-library
-Simple library project for The Odin Project - JavaScript course
+Library project for The Odin Project - JavaScript course. Add any books you've read or want to read to the library.
 
 ## How It's Made
 
